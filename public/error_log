@@ -1,0 +1,13 @@
+[16-Aug-2023 07:20:53 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to CodeIgniter\CodeIgniter::__construct() must be an instance of Config\App, null given, called in /home/y8e0602nvn4f/public_html/dust/system/Config/Services.php on line 154 and defined in /home/y8e0602nvn4f/public_html/dust/system/CodeIgniter.php:171
+Stack trace:
+#0 /home/y8e0602nvn4f/public_html/dust/system/Config/Services.php(154): CodeIgniter\CodeIgniter->__construct(NULL)
+#1 /home/y8e0602nvn4f/public_html/dust/system/Config/BaseService.php(252): CodeIgniter\Config\Services::codeigniter(NULL, false)
+#2 /home/y8e0602nvn4f/public_html/dust/system/Config/BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('codeigniter', Array)
+#3 /home/y8e0602nvn4f/public_html/dust/system/Config/Services.php(149): CodeIgniter\Config\BaseService::getSharedInstance('codeigniter', NULL)
+#4 /home/y8e0602nvn4f/public_html/dust/system/Config/BaseService.php(252): CodeIgniter\Config\Services::codeigniter()
+#5 /home/y8e0602nvn4f/public_html/dust/public/index.php(54): CodeIgniter\C in /home/y8e0602nvn4f/public_html/dust/system/CodeIgniter.php on line 171
+[16-Aug-2023 08:31:13 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/y8e0602nvn4f/public_html/dust/app/Controllers/Usuarios.php on line 69
+[16-Aug-2023 08:32:50 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/y8e0602nvn4f/public_html/dust/app/Controllers/Usuarios.php on line 74
+[16-Aug-2023 08:33:28 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/y8e0602nvn4f/public_html/dust/app/Controllers/Usuarios.php on line 74
+[16-Aug-2023 08:33:30 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/y8e0602nvn4f/public_html/dust/app/Controllers/Usuarios.php on line 74
+[16-Aug-2023 08:33:30 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/y8e0602nvn4f/public_html/dust/app/Controllers/Usuarios.php on line 74
